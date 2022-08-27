@@ -576,6 +576,7 @@ import '../scss/animate.scss'
 import anime from "animejs";
 import ScrollReveal from "scrollreveal";
 import "../scss/style.scss";
+// eslint-disable-next-line no-unused-vars
 import * as bootstrap from "bootstrap";
 import axios from 'axios'
 
@@ -608,6 +609,7 @@ export default {
                     }
                    // console.log(response.data.status);
                 })
+                // eslint-disable-next-line no-unused-vars
                 .catch(function (error) {
                     //console.log(error);
                     that.msg_error = true;
