@@ -5,9 +5,13 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "start": "browser-sync start --proxy 'https://dev.logic-moon.de' -f  *",
+    "sync": "rm -rf ../httpdocs/*; rsync -a --exclude '.map' dist/* ../httpdocs/; rm -rf dist;",
+    "deploy": "npm-run-all build sync"
   },
   "dependencies": {
+    "@popperjs/core": "^2.11.6",
     "animejs": "^3.2.1",
     "axios": "^0.27.2",
     "bootstrap": "^5.2.0",
