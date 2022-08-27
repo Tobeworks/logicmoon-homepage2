@@ -1,6 +1,6 @@
 {
   "name": "logicmoon",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "animejs": "^3.2.1",
+    "axios": "^0.27.2",
     "bootstrap": "^5.2.0",
     "core-js": "^3.8.3",
     "popper.js": "^1.16.1",
@@ -41,7 +42,7 @@
       "parser": "@babel/eslint-parser"
     },
     "rules": {
-      "no-unused-vars":"warn"
+      "no-unused-vars": "warn"
     }
   },
   "browserslist": [
