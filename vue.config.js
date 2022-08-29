@@ -3,6 +3,12 @@ const ImageMinimizerPlugin = require("image-minimizer-webpack-plugin");
 const { extendDefaultPlugins } = require("svgo");
 
 module.exports = defineConfig({
+  pages: {
+    index: {
+      entry: 'src/main.js',
+      title: 'Logic Moon Music Home',
+    },
+  },
   transpileDependencies: true,
   publicPath: './',
   productionSourceMap: process.env.NODE_ENV != 'production',
@@ -40,6 +46,34 @@ module.exports = defineConfig({
               ],
             },
           },
+          generator: [
+            {
+              // You can apply generator using `?as=webp-100-50`, you can use any name and provide more options
+              preset: "jpeg-100-100",
+              // implementation: ImageMinimizerPlugin.sharpGenerate,
+              implementation: ImageMinimizerPlugin.squooshGenerate,
+              options: {
+                resize: {
+                  enabled: true,
+                  width: 500,
+                  height: 500,
+                },
+                encodeOptions: {
+                  webp:{
+                    quality: 60,
+                  },
+                  mozjpeg: {
+                    quality: 60,
+                    resize: {
+                      enabled: true,
+                      width: 500,
+                      height: 500,
+                    }
+                  },
+                },
+              },
+            },
+          ],
         }),
       ],
     }
