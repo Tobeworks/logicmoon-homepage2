@@ -2,7 +2,7 @@
   "name": "logicmoon",
   "version": "3.1.0",
   "private": true,
-  "title":"Logic Moon Music Home",
+  "title": "Logic Moon Music Home",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -38,6 +38,7 @@
     "imagemin-optipng": "^8.0.0",
     "imagemin-svgo": "^10.0.1",
     "npm-run-all": "^4.1.5",
+    "prettier": "^2.7.1",
     "sass": "^1.45.1",
     "sass-loader": "^13.0.2"
   },
