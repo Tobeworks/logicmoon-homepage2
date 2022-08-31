@@ -72,7 +72,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm">
-                        <img src="../assets/img/portrait.jpg" alt="portrait" id="portrait" class="img-fluid" width="598" height="798">
+                        <img src="../assets/img/portrait.jpg" alt="portrait" class="img-fluid d-none d-sm-block">
                     </div>
                     <div class="col-sm">
                         <h2 class="text-xl-end" id="headline-about">About</h2>
@@ -98,7 +98,7 @@
                     <div class="col-sm">
                         <h2 class="text-left" id="headline-music">Music</h2>
 
-                        <p class="text text-left">To date, 10 albums, 11 EPs and singles and various contributions on compilations have been released on international labels. In addition, there are various contributions and productions in the film and advertising sector.</p>
+                        <p class="text text-left">To date, 11 albums, 15 EPs and singles and various contributions on compilations have been released on international labels. In addition, there are various contributions and productions in the film and advertising sector.</p>
                     </div>
                 </div>
             </div>
@@ -232,17 +232,19 @@
                         <form id="contactform" name="contact-form" @submit.prevent="sendForm" action="#contact" method="post">
                             <div class="mb-3">
                                 <label>Email address</label>
-                                <input type="email" class="form-control" name="email" v-model="form_email" required>
+                                <input type="email" class="form-control" name="email" v-model="form_email" required :disabled="form_disabled">
                             </div>
                             <div class="mb-3">
                                 <label>Name</label>
-                                <input type="text" class="form-control" name="name" v-model="form_name" required>
+                                <input type="text" class="form-control" name="name" v-model="form_name" required :disabled="form_disabled">
                             </div>
                             <div class="mb-3">
                                 <label>Message</label>
-                                <textarea class="form-control textarea" rows="3" name="message" v-model="form_message" required></textarea>
+                                <textarea class="form-control textarea" rows="3" name="message" v-model="form_message" required :disabled="form_disabled"></textarea>
                             </div>
-                            <button type="submit" class="btn btn-lm">Send me a message</button>
+
+                            <button type="submit" class="btn btn-lm" :disabled="form_disabled">Send me a message</button>
+
                         </form>
                         <div class="alert alert-light m-3" role="alert" id="mail-alert" style="display: none;"></div>
                     </div>
@@ -584,6 +586,7 @@ export default {
     data(){
         return {
           form_email:null,
+          form_disabled:false,
             form_name: null,
             form_message:null,
             uid: 'AzzoyqsYxvPH338XZRvm3Wgar',
@@ -594,6 +597,7 @@ export default {
     methods:{
         sendForm(){
             const that = this;
+            this.form_disabled = true;
             axios.post('https://api.tobeworks.de/sendmail', {
                 name: this.form_name,
                 email: this.form_email,
@@ -607,6 +611,7 @@ export default {
                     if (response.data.status == '0') {
                         that.msg_error = true;
                     }
+                    that.form_disabled = false;
                    // console.log(response.data.status);
                 })
                 // eslint-disable-next-line no-unused-vars

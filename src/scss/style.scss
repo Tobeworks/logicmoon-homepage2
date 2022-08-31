@@ -32,7 +32,7 @@ iframe {
 }
 a,
 a:hover {
-  color: black;
+  color: $secondary;
   font-weight: 500;
 }
 iframe {
@@ -40,10 +40,11 @@ iframe {
   height: 400px;
 }
 
+
 #cover-container {
   background: url(../assets/img/front.jpg);
   background-size: cover;
-  background-color: black;
+  background-color: $secondary;
   height: 100vh;
 }
 
@@ -167,23 +168,33 @@ background-color: $secondary;
 }
 
 .btn-lm {
-  color: #fff;
+  color: $primary;
   background-color: $secondary;
   border-color: $secondary;
   border-radius: 0;
   text-transform: uppercase;
   min-width: 200px;
+
+  &:hover {
+  color: $primary;
+  background-color: #2f2a24;
+  border-color: #2f2a24;
+}
 }
 
-.btn-lm:hover {
-  color: #fff;
-  background-color: #353535;
-  border-color: #353535;
-}
+
 
 .form-control {
-  border: 1px solid black;
+  border: 1px solid $secondary;
   border-radius: 0;
+}
+
+
+
+input[type="text"]:disabled,
+input[type="email"]:disabled,
+.textarea:disabled {
+  background-color: grey;
 }
 
 input[type="text"],
@@ -198,7 +209,7 @@ input[type="password"]:focus,
 input[type="email"]:focus,
 input[type="url"]:focus,
 .textarea:focus {
-  border-color: black;
+  border-color: $secondary;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(0, 0, 0, 0.6);
   outline: 0 none;
   background-color: $primary;
@@ -258,7 +269,7 @@ input[type="url"]:focus,
   width: 30px;
 
   #scrollToTop-button {
-    color: rgb(116, 116, 116);
+    color: $primary;
     mix-blend-mode: difference;
   }
   &.hide {
@@ -335,13 +346,13 @@ input[type="url"]:focus,
 }
 
 .overlay-middle .nav-link {
-  color: white;
+  color: $primary;
 }
 
 #overlay-close-button {
   border: 0;
   background-color: transparent;
-  color: white;
+  color: $primary;
 }
 
 .menu ul {
@@ -392,14 +403,14 @@ input[type="url"]:focus,
 
   .btn-lm {
     color: $secondary;
-    background-color: #fff;
-    border-color: #fff;
+    background-color: $primary;
+    border-color: $primary;
     border-radius: 0;
     text-transform: uppercase;
     min-width: 200px;
 
     &:hover {
-      color: white;
+      color: $primary;
       background-color: #353535;
       border-color: #353535;
     }
@@ -436,6 +447,36 @@ input[type="url"]:focus,
 }
 
 @media only screen and (max-width: 900px) {
+
+    #cover-container {
+  background: url(../assets/img/mobile-cover.jpg);
+  background-size: cover;
+  background-color: $secondary;
+  height: 100vh;
+}
+#music {
+  background: url(../assets/img/mobile-mid.jpg);
+  background-attachment:scroll;
+  background-size: cover;
+}
+#disco {
+  background: url(../assets/img/mobile-mid.jpg);
+  background-attachment:scroll;
+  background-size: cover;
+}
+
+footer {
+background-color: $secondary;
+  background: url(../assets/img/mobile-footer.jpg);
+  background-size: cover;
+  background-attachment:scroll;
+  min-height: 600px;
+  padding-top: 350px;
+  h4{
+    color:$primary;
+  }
+}
+
   .grid-item {
     width: $isogridsize-sm;
     height: $isogridsize-sm;
