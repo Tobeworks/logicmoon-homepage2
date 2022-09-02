@@ -95,7 +95,7 @@
             <div class="overlay"></div>
             <div class="container">
                 <div class="row">
-                    <div class="col-sm">
+                    <div class="col-sm mobile-bg">
                         <h2 class="text-left" id="headline-music">Music</h2>
 
                         <p class="text text-left">To date, 11 albums, 15 EPs and singles and various contributions on compilations have been released on international labels. In addition, there are various contributions and productions in the film and advertising sector.</p>
@@ -123,11 +123,11 @@
         <section class="main-section bg-dark" id="disco">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm">
+                    <div class="col-sm mobile-bg">
                         <h2 class="text-xl-start" id="headline-disco">Discography</h2>
                         <p class="text-xl-start text-justify text-light">Click the cover to open the player to listen to the release.
                         </p>
-                        <div id="discogrid" class="row">
+                        <div id="discogrid" class="row justify-content-sm-start justify-content-evenly">
                             <a href="#!" class="grid-item m-2 col-2 col-md-4 col-lg-2" data-year="2022" data-release-id="443653520">
                                 <img src="../assets/img/covers/inseln.jpg" alt="Logic Moon & Henrik Meierkord - Inseln">
                             </a>

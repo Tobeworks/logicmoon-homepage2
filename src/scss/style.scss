@@ -15,7 +15,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;700&display=swap");
 
 $isogridsize: 200px;
-$isogridsize-sm: 140px;
+$isogridsize-sm: 150px;
 $isogridsize-xs: 100px;
 $primary: #b7b199;
 $secondary: black;
@@ -448,14 +448,18 @@ input[type="url"]:focus,
 
 @media only screen and (max-width: 900px) {
 
-    #cover-container {
-  background: url(../assets/img/mobile-cover.jpg);
+  .mobile-bg{
+    background-color: $secondary;
+  }
+
+  #cover-container {
+  background: url(../assets/img/frontcover-mobile.jpg);
   background-size: cover;
   background-color: $secondary;
   height: 100vh;
 }
 #music {
-  background: url(../assets/img/mobile-mid.jpg);
+  background: url(../assets/img/mobile-mid2.jpg);
   background-attachment:scroll;
   background-size: cover;
 }
@@ -527,7 +531,7 @@ background-color: $secondary;
     }
   }
   h1 {
-    font-size: 40px;
+    font-size: 38px;
     text-transform: uppercase;
     margin: 75px 0 0 0;
   }
