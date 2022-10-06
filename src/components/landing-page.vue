@@ -78,12 +78,15 @@
                         <h2 class="text-xl-end" id="headline-about">About</h2>
                         <p class="text text-xl-end text-justify">
 
-                            Logic Moon is Tobias Lorsbach, an artist from Mainz, Germany. His previous releases have appeared on labels such as Archives, Archipel and his own spontanMusik imprint across all physical and digital formats. He spent many years in the minimal techno scenes since the early 2000s and whilst out on a field recording excursion, he fell upon the idea of layering some
-                            Ambient
-                            drones. From here, his debut album as Logic Moon was born.
+                            Tobias Lorsbach is a Mainz, Germany-based artist known as Logic Moon.
+                            His earlier work has been released on labels such as Archives, Archipel, and his own spontanMusik imprint in both physical and digital media.
+                            He has been involved in the minimal techno genre since the early 2000s, and while out on a field recording adventure, he came up with the idea of layering some Ambient drones.
+                            From this evolved his debut album, "2011," as Logic Moon.
                             <br><br>
-                            Tobias’ musical background has drawn in a widescreen of genres with him having performed guitar in a death metal band, embarked on a DJ career and now as an Ambient musician. His varied experiences have only served to give birth to a range of ideas which are evident in his latest album ‘I See Planets’, clocking in at just over an hour.
-                            Compositions typically start life as a sketch on guitar before synth and additional components were added to build an environment.
+                            Tobias' musical experience is diverse, having played guitar in a death metal band, starting on a DJ career, and later as an Ambient musician.
+                            His varied experiences have only served to give rise to a variety of concepts, as evidenced by his most recent albums, which also include neoclassical influences.
+
+                            Compositions often begin with a guitar sketch before synth and other components are added to create an environment.
                         </p>
                     </div>
                 </div>
@@ -98,7 +101,8 @@
                     <div class="col-sm mobile-bg">
                         <h2 class="text-left" id="headline-music">Music</h2>
 
-                        <p class="text text-left">To date, 11 albums, 15 EPs and singles and various contributions on compilations have been released on international labels. In addition, there are various contributions and productions in the film and advertising sector.</p>
+                        <p class="text text-left">On international labels, 11 albums, 15 EPs and singles, and several contributions to compilations have been released to date.
+                            There are other contributions and productions in the film and advertising industries. </p>
                     </div>
                 </div>
             </div>
@@ -110,7 +114,7 @@
                 <div class="row">
                     <div class="col-sm">
                         <h2 class="text-xl-end" id="headline-mastering">Mastering</h2>
-                        <p class="text-xl-end text-justify">Login Moon is well known for his mastering and postproduction for internationally known labels like Whitelabrecs, Dronarivm, Seasides on Postcards, Archives and many artist all over the globe.
+                        <p class="text-xl-end text-justify">Login Moon is well-known for his mastering and postproduction work for internationally renowned labels such as Whitelabrecs, Dronarivm, Seasides on Postcards, Archives, and several artists worldwide.
                         </p>
                     </div>
                 </div>
@@ -125,7 +129,7 @@
                 <div class="row">
                     <div class="col-sm mobile-bg">
                         <h2 class="text-xl-start" id="headline-disco">Discography</h2>
-                        <p class="text-xl-start text-justify text-light">Click the cover to open the player to listen to the release.
+                        <p class="text-xl-start text-justify text-light">To listen to the release, click the cover to open the player.
                         </p>
                         <div id="discogrid" class="row justify-content-sm-start justify-content-evenly">
                             <a href="#!" class="grid-item m-2 col-2 col-md-4 col-lg-2" data-year="2022" data-release-id="443653520">
