@@ -87,7 +87,7 @@
                             His varied experiences have only served to give rise to a variety of concepts, as evidenced by his most recent albums, which also include neoclassical influences.
 
                             Compositions often begin with a guitar sketch before synth and other components are added to create an environment. <br>
-                            His style is frequently regarded as lively, and his compositions strike a balance between neo-classical accessibility and joy in exploration.
+                            His style is frequently regarded as lively, and his compositions strike a balance between classical accessibility and joy in exploration.
                         </p>
                     </div>
                 </div>
