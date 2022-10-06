@@ -81,12 +81,13 @@
                             Tobias Lorsbach is a Mainz, Germany-based artist known as Logic Moon.
                             His earlier work has been released on labels such as Archives, Archipel, and his own spontanMusik imprint in both physical and digital media.
                             He has been involved in the minimal techno genre since the early 2000s, and while out on a field recording adventure, he came up with the idea of layering some Ambient drones.
-                            From this evolved his debut album, "Herbst11," as Logic Moon.
+                            From this evolved his debut album, "Herbst11", as Logic Moon.
                             <br><br>
                             Tobias' musical experience is diverse, having played guitar in a death metal band, starting on a DJ career, and later as an Ambient musician.
                             His varied experiences have only served to give rise to a variety of concepts, as evidenced by his most recent albums, which also include neoclassical influences.
 
-                            Compositions often begin with a guitar sketch before synth and other components are added to create an environment.
+                            Compositions often begin with a guitar sketch before synth and other components are added to create an environment. <br>
+                            His style is frequently regarded as lively, and his compositions strike a balance between neo-classical accessibility and joy in exploration.
                         </p>
                     </div>
                 </div>
