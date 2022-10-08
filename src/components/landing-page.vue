@@ -358,13 +358,13 @@
                     </div>
                     <div class="modal-body">
 
-                        <img src="https://tobeworks.de/images/logos/TW%20Black.png" alt="TW%20Black" width="120"><br>
+                        <img src="../assets/img/TWBlack.png" alt="Tobeworks Logo" width="120"><br>
                         <strong>Tobeworks - Tobias Lorsbach<br>
                         </strong>
                         Neue Universitätsstraße 7<br>
                         55116 Mainz<br><br>
                         Mobil: 0179/1259004 <br>
-                        <p class="reverseaddr"><a href="/kontakt">ed.skrowebot@ollah</a></p>
+                        <p class="reverseaddr">ed.skrowebot@ollah</p>
 
                         Geschäftsführung: Tobias Lorsbach<br>
 
@@ -402,8 +402,7 @@
                                 Neue Universitätsstraße 7<br>
                                 55116 Mainz<br>
                             </span></p>
-                        <p class="reverseaddr"><a href="/kontakt">ed.skrowebot@ollah</a></p>
-                        <a href="/impressum">Impressum</a><br>
+                        <p class="reverseaddr">ed.skrowebot@ollah</p>
                         <p></p>
                         <h3>Arten der verarbeiteten Daten:</h3>
                         <p>- Bestandsdaten (z.B., Namen, Adressen).<br> - Kontaktdaten (z.B., E-Mail, Telefonnummern).<br> - Inhaltsdaten (z.B., Texteingaben, Fotografien, Videos).<br> - Nutzungsdaten (z.B., besuchte Webseiten, Interesse an Inhalten, Zugriffszeiten).<br> - Meta-/Kommunikationsdaten (z.B., Geräte-Informationen, IP-Adressen).<br>
