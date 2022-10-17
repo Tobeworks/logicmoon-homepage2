@@ -12,7 +12,8 @@
 @import "../../node_modules/bootstrap/scss/buttons";
 @import "../../node_modules/bootstrap/scss/bootstrap-utilities.scss";
 @import "../../node_modules/bootstrap/scss/alert";
-@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;700&display=swap");
+@import "../assets/fonts/cinzel/cinzel.css";
+//@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;700&display=swap");
 
 $isogridsize: 200px;
 $isogridsize-sm: 150px;
