@@ -1,6 +1,6 @@
 const { defineConfig } = require('@vue/cli-service')
 const ImageMinimizerPlugin = require("image-minimizer-webpack-plugin");
-const { extendDefaultPlugins } = require("svgo");
+//const { extendDefaultPlugins } = require("svgo");
 
 module.exports = defineConfig({
   pages: {
