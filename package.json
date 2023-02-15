@@ -1,15 +1,15 @@
 {
   "name": "logicmoon",
-  "version": "3.1.5",
+  "version": "3.2.0",
   "private": true,
   "title": "Logic Moon Music Home",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "start": "browser-sync start --proxy 'https://dev.logic-moon.de' -f  *",
-    "sync": "rm -rf ../httpdocs/*; rsync -a --exclude '.map' dist/* ../httpdocs/; rm -rf dist;",
-    "deploy": "npm-run-all build sync"
+    "start": "browser-sync start --proxy 'http://localhost:8080' -f  *",
+    "rundeploy": "node deploy.js",
+    "deploy": "npm-run-all build rundeploy"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.6",
@@ -29,8 +29,10 @@
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-eslint": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
+    "dotenv": "^16.0.3",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
+    "ftp-deploy": "^2.4.3",
     "image-minimizer-webpack-plugin": "^3.3.0",
     "imagemin": "^8.0.1",
     "imagemin-gifsicle": "^7.0.0",
