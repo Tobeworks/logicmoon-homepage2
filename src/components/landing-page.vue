@@ -134,7 +134,7 @@
                         </p>
                         <div id="discogrid" class="row justify-content-sm-start justify-content-evenly">
 
-                            <a href="#!" class="grid-item m-2 col-2 col-md-4 col-lg-2" data-year="2022" data-release-id="443653520" v-for="release in releases.sort((a, b) => (a.id > b.id) ? -1 : 1)" :key="release.id">
+                            <a href="#!" class="grid-item m-2 col-2 col-md-4 col-lg-2" data-year="2022" :data-release-id="release.release_id" v-for="release in releases.sort((a, b) => (a.id > b.id) ? -1 : 1)" :key="release.id">
                                 <img :src="require(`@/assets/img/covers/${release.cover}`)" :alt="release.title">
                             </a>
 
@@ -770,6 +770,13 @@ const releases = [
         year: '2022',
         release_id: '443653520',
         title: 'Logic Moon & Henrik Meierkord - Inseln'
+    },
+        {
+        id: 25,
+        cover: 'moonscars.webp',
+        year: '2023',
+        release_id: '3818893430',
+        title: 'Logic Moon & Scarless Arms - Moon Scars'
     }
 ];
 
