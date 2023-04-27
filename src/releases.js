@@ -180,6 +180,13 @@ const releases = [
         year: '2023',
         release_id: '3818893430',
         title: 'Logic Moon & Scarless Arms - Moon Scars'
-    }
+    },
+    {
+        id: 27,
+        cover: 'sun.webp',
+        year: '2023',
+        release_id: '2159767475',
+        title: 'Logic Moon - Sun'
+    } 
 ];
 export default releases;
