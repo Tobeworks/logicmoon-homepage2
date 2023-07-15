@@ -187,6 +187,14 @@ const releases = [
         year: '2023',
         release_id: '2159767475',
         title: 'Logic Moon - Sun'
-    } 
+    } ,
+    {
+        id: 28,
+        cover: 'ikarus.jpg',
+        year: '2023',
+        release_id: '1087783645',
+        title: 'Logic Moon - Ikrarus'
+    },
+
 ];
 export default releases;
