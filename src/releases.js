@@ -195,6 +195,20 @@ const releases = [
         release_id: '1087783645',
         title: 'Logic Moon - Ikrarus'
     },
+    {
+        id: 29,
+        cover: 'moonchild.jpg',
+        year: '2023',
+        release_id: '3179587971',
+        title: 'Logic Moon - Moonchild'
+    },
+    {
+        id: 30,
+        cover: 'tqc.jpg',
+        year: '2023',
+        release_id: '468805382',
+        title: ' Sven Laux & Logic Moon - The Quiet Companion'
+    },
 
 ];
 export default releases;
