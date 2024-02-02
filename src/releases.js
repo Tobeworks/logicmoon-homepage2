@@ -209,6 +209,20 @@ const releases = [
         release_id: '468805382',
         title: ' Sven Laux & Logic Moon - The Quiet Companion'
     },
+    {
+        id: 31,
+        cover: 'lux.jpg',
+        year: '2023',
+        release_id: '2740630108',
+        title: ' Logic Moon - Lux'
+    },
+    {
+        id: 32,
+        cover: 'ewiger_wald.jpg',
+        year: '2024',
+        release_id: '3324823902',
+        title: 'Logic Moon & Henrik Meierkord - Ewiger Wald'
+    },
 
 ];
 export default releases;
